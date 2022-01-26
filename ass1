@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>One piece</h1>
+
+    <img
+      src="https://upload.wikimedia.org/wikipedia/en/9/90/One_Piece%2C_Volume_61_Cover_%28Japanese%29.jpg"
+      alt="one piece manga cover page "
+    />
+    <p>
+      The story follows the adventures of Monkey D. Luffy, a boy whose body
+      gained the properties of rubber after unintentionally eating a Devil
+      Fruit. With his pirate crew, the Straw Hat Pirates, Luffy explores the
+      Grand Line in search of the world's ultimate treasure known as the "One
+      Piece" in order to become the next King of the Pirates.
+    </p>
+    <label for="anime link">Click on this link to watch one piece</label>
+    <a href="animepahe.com">animepahe</a>
+    <form action="">
+        <h1>collage enquire</h1>
+        <label for="name">Name</label>
+        <br />
+        <input type="text" id="Name" placeholder="Enter your name" />
+        <br />
+        <label for="email">Email</label>
+        <br />
+        <input type="email" id="email" placeholder="Enter your email" />
+        <br />
+        <label for="number">mobile number</label>
+        <input
+          type="number"
+          id="moblie number"
+          placeholder="Enter your mobile number"
+        />
+        <br />
+        <label for="Program level">Program level</label>
+        <select>
+          <option value="">Under Graduation</option>
+          <option value="">Post Graduation</option>
+          <option value="">Diploma</option>
+        </select>
+        <br />
+        <label for="html">HTML</label>
+        <input type="radio" id="html" name="favourite language" />
+        <br />
+        <label for="html">Java</label>
+        <input type="radio" id="JAVA" name="favourite language" />
+        <br />
+        <label for="html">Python</label>
+        <input type="radio" id="python" name="favourite language" />
+        <br />
+        <h3>Collage feedback</h3>
+        <p>What you like about collge</p>
+        <label for="sports">sports</label>
+        <input type="checkbox" id="sports" />
+        <label for="Library">library</label>
+        <input type="checkbox" id="library" />
+        <label for="Audi room">Auditorial</label>
+        <input type="checkbox" id="Audi room" />
+        <br />
+        <label for="text">Tell us how we can improve</label>
+        <input type="textarea" />
+      </form>
+  </body>
+</html>
